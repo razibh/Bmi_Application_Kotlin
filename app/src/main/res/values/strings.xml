@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BMI</string>
+    <string name="calculate">Calculate</string>
+    <string name="you_are_over_weight">You are over weight</string>
+    <string name="tips_choose_a_diet_or_food">Tips: Choose a diet or food</string>
+    <string name="calculate_again">Calculate_again</string>
+    <string name="bmi_is_20">BMI is 20</string>
+</resources>
