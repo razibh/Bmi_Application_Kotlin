@@ -83,7 +83,7 @@ class MainActivity : AppCompatActivity() {
        }
     }
     fun bmiCalculation(height: Int, weight:Int) {
-        var mheight = Math.pow((height / 100).toDouble(), 2.toDouble())
+        var mheight = Math.pow((height * 0.01).toDouble(), 2.toDouble())
         var bmi = weight / mheight
 
         val intent = Intent(this, result::class.java)
